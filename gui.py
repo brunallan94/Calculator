@@ -11,7 +11,7 @@ root.geometry("400x530")
 root.title("Simple Calculator")
 root.wm_iconphoto
 
-# number entry box
+# characters entry box
 entry = Entry(root, fg = "white", bg = "black")
 entry.grid(column = 0, row = 1, columnspan= 4)
 
